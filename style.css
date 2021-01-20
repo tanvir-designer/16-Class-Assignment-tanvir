@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menubar ul {
+    text-align: center;
+    list-style: none;
+}
+.menubar li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    background-color: #e67e22;
+    padding: 10px 15px;
+    text-align: center;
+    transition: all .4s linear;
+}
+.menubar li:hover{
+    background-color: #ee9242;
+    transition: all .4s linear;
+}
+.menubar li a {
+    text-decoration: none;
+    color: #34495e;
+}
+.menubar {
+    background-color: #34495e;
+    padding: 50px 0 130px 0;
+}
+.menubar ul li span {
+	position: absolute;
+	width: 7px;
+	height: 23px;
+	background-color: white;
+    display: inline-block;
+    top: 100%;
+    left: 46%;
+    transition: all .4s linear;
+}
+.menubar ul li p{
+    position: absolute;
+    color: #e67e22;
+    top: 160%;
+    font-size: 30px;
+    left: 42.25%;
+    transition: all .4s linear;
+}
+.menubar li:hover span {
+    background-color: #ee9242;
+    transition: all .4s linear;
+}
+.menubar li:hover p{
+    color: white;
+    transition: all .4s linear;
+}
+
+.circle-part {
+	background-color: #9b59b6;
+	text-align: center;
+	padding: 110px 0 35px 0;
+	position: relative;
+}
+.main-circle{
+    width: 120px;
+    height: 120px;
+    background-color: #34495e;
+    border-radius: 50%;
+    border: 5px solid #e67e22;
+    display: inline-block;
+}
+.left-1 {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px dotted #e67e22;
+	position: absolute;
+	top: 10%;
+	right: 37%;
+}
+.left-2 {
+	position: absolute;
+	top: 49%;
+	right: 24%;
+}
+.left-3 {
+	left: 37%;
+}
+.left-4 {
+	left: 24%;
+}
+
+.foother {
+	padding: 35px 0;
+	text-align: center;
+	color: white;
+}
